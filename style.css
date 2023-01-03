@@ -1,0 +1,286 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{ color:rgb(225, 91, 33); }
+  
+#login{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+#login:hover{color:rgb(255, 255, 255);}
+
+/* Above the fold */
+#headline{
+    margin: 100px 0px 35px 100px;
+    font-size: 50px;
+}
+
+.support-line{
+    font-size: 20px;
+    margin: 0px 0px 0px 100px;
+    width: 470px;
+}
+
+.CTA{
+    margin: 60px 0px 35px 100px;
+    width: 220px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: orange;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.CTA:hover{ color:white; }
+
+#stars{
+    font-size: 30px;
+    color: orange;
+    margin: 0px 0px 0px 100px;
+}
+
+#rating{
+    font-weight: bold;
+    margin: 0px 0px 0px 100px;
+}
+
+#hero{
+    padding-top:60px; 
+    width:100%;
+    margin-left: 150px;
+}
+
+.line{
+    width: 70%;
+    height: 0,5px;
+    background-color: black;
+}
+
+/* Why choose givable section */
+.frame{ 
+    margin-top: 150px;
+    margin-bottom: 100px;
+    /* padding-right: 50px; */
+    background-color: transparent;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+ } 
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.center-icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Benefits & features */
+.category{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.intro-title{
+    padding-bottom: 10px;
+    padding-left: 100px;
+    font-size: 40px;
+  }
+
+  /* Who we are section */
+.custome-paragraph{
+    padding-left: 100px;
+    padding-right: 190px;
+    font-size: 16px;
+  }
+
+#more {display: none;}
+
+#readmore-button{
+    height: 50px;
+    width: 170px;
+    border:none;
+    border-radius: 15px;
+    margin-left: 100px;
+    background-color: orange;
+    margin-top: 10px;
+  }
+
+#readmore-button:hover{color:rgb(255, 255, 255);}
+
+/* Who we are picture */
+#company{padding-right: 70px;}
+
+/* How to section */
+.usage-style{
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 100px 0 100px 0;
+    padding: 50px 100px 0 0;
+}
+
+.accordion {
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: orange; 
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+
+  #support{
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  #support-link{
+    color: blue;
+    text-decoration: underline;
+  }
+
+  #support-link:hover{color: orange;}
+
+  /* Feedback section */
+  .feedback{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+  }
+
+  .feedback-star{
+    font-size: 30px;
+    color: orange;
+  }
+
+  /* Pricing cards */
+
+  .card-header, .card-body{
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .pricing-button{
+    background-color: rgb(255, 136, 0);
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .pricing-button:hover{
+    color: white;
+    background-color: rgb(246, 153, 14);
+  }
+
+  /* Newsletter */
+
+  .home-newsletter {
+    padding: 80px 0;
+    /* background: #f84e77; */
+    }
+    
+    .home-newsletter .single {
+      max-width: 650px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .home-newsletter .single h2 {
+      font-size: 22px;
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .home-newsletter .single .form-control {
+      height: 50px;
+      background-color: rgba(212, 209, 207, 0.194);
+      border-color: transparent;
+      border-radius: 20px 0 0 20px;
+    }
+  
+    .home-newsletter .single .btn {
+      min-height: 50px; 
+      border-radius: 0 20px 20px 0;
+      background: #f08e70;
+      color: #fff;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: rgba(212, 209, 207, 0.194);
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      .nav-item{text-align: center;}
+      .navbar-collapse{ background-color:rgba(226, 226, 226, 0.381);}
+      #headline{margin-left: 30px; margin-top: 40px;}
+      .support-line{margin-left:30px; width: 440px;}
+      .CTA, #stars, #rating{margin-left: 30px;}
+      #hero{width: 65%; margin-left: 85px; padding-top: 0;}
+      .column {width: 100%;}
+      .intro-title{padding-left: 40px;}
+      .custome-paragraph{padding-left: 40px; width: 600px;}
+      #readmore-button{margin-left: 40px;}
+      #company{margin-left: 60px; margin-top: 40px;}
+      #company-image{margin-left: 120px; margin-top: 40px; width: 50%;}
+      .progress-image{margin-left: 75px; width: 90%;}
+      .accordion{margin-left: 50px;}
+      #support{margin-left: 50px; width: 340px; padding-bottom: 30px;}
+      .panel p{margin-left: 50px; width: 280px; text-align:start;}
+      .card-header{margin-top: 50px;}
+      .pricing-button{color:white;}
+      .home-newsletter{width: 450px;padding-left: 20px;}
+    }
+  
+    
